@@ -1,3 +1,61 @@
-html {
-    background: 
+/* 代码片段显示问题 */
+pre {
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+code {
+    white-space: pre;
+    white-space: pre-wrap;
+}
+
+iframe {
+    box-shadow: 0 0 10px 0px #dacdcd;
+}
+/* 代码片段显示问题 */
+
+img {
+    box-shadow: 0 0 3px 0px #dacdcd;
+    margin: 15px 0;
+}
+
+sup {
+    top: 1em;
+}
+
+blockquote.default{
+    border-left: 5px solid #D0E3F0;
+    margin: 8px 0;
+    padding: 8px 16px;
+    background-color: #F0F7FD;
+    color: #0382AD;    
+}
+
+blockquote.default:hover a{
+    color: red;
+    padding-bottom: 3px;
+    text-decoration: none;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23ff3300' d='M0 3.5c5 0 5-3 10-3s5 3 10 3 5-3 10-3 5 3 10 3'/%3E%3C/svg%3E") repeat-x 0 100%;
+    background-size: 20px auto;
+    background-position: 100px 100%;
+    animation: wang 1s infinite linear;
+}
+
+a:hover{
+    color: red;
+    padding-bottom: 3px;
+    text-decoration: none;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 4'%3E%3Cpath fill='none' stroke='%23ff3300' d='M0 3.5c5 0 5-3 10-3s5 3 10 3 5-3 10-3 5 3 10 3'/%3E%3C/svg%3E") repeat-x 0 100%;
+    background-size: 20px auto;
+    background-position: 100px 100%;
+    animation: wang 1s infinite linear;
+}
+
+@keyframes wang {
+    0% {
+        background-position: 0 100%;
+    }
+    100% {
+        background-position: -20px 100%;
+    }
 }
