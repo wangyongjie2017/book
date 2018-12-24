@@ -9,12 +9,12 @@ iframe:not([title="Disqus"]) {
     box-shadow: 0 0 10px 0px #dacdcd;
 }
 /* 代码片段显示问题 */
-/* 代码片段显示问题 */
 
 img {
     box-shadow: 0 0 3px 0px #dacdcd;
     margin: 15px 0;
 }
+
 
 
 blockquote.default:hover a{
@@ -34,4 +34,14 @@ blockquote.default:hover a{
     100% {
         background-position: -20px 100%;
     }
+}
+
+
+
+/* --------------------------------------------- */
+.page-inner-bottom {
+    margin-top: 100px;
+    text-align: center;
+    color: #ccc;
+    box-shadow: 0 0 50px 0 #ccc;
 }
