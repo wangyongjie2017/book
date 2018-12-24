@@ -1,14 +1,9 @@
 /* 代码片段显示问题 */
 /* 代码片段显示问题 */
-pre {
-    word-break: break-all;
-    word-wrap: break-word;
+.markdown-section pre>code {
+    white-space: pre-line !important;
 }
 
-code {
-    white-space: pre;
-    white-space: pre-wrap;
-}
 
 iframe {
     box-shadow: 0 0 10px 0px #dacdcd;
@@ -20,17 +15,6 @@ img {
     margin: 15px 0;
 }
 
-sup {
-    top: 1em;
-}
-
-blockquote.default{
-    border-left: 5px solid #D0E3F0;
-    margin: 8px 0;
-    padding: 8px 16px;
-    background-color: #F0F7FD;
-    color: #0382AD;    
-}
 
 blockquote.default:hover a{
     color: red;
