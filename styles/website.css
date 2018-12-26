@@ -27,6 +27,7 @@ blockquote.default:hover a{
     animation: wang 1s infinite linear;
 }
 
+
 @keyframes wang {
     0% {
         background-position: 0 100%;
@@ -37,7 +38,6 @@ blockquote.default:hover a{
 }
 
 
-
 /* --------------------------------------------- */
 .page-inner-bottom {
     margin-top: 100px;
@@ -45,3 +45,8 @@ blockquote.default:hover a{
     color: #ccc;
     box-shadow: 0 0 50px 0 #ccc;
 }
+
+.book-header h1 {
+    opacity: 1;
+}
+
