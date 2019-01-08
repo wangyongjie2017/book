@@ -57,18 +57,13 @@ tr:hover td{
 
 
 /* ----注脚----------------------------------------- */
-/* sup a {
-    padding: 0 0.2rem;
-    background: #000 !important;
-    color: #fff !important;
-    border-radius: 0.2rem;
-    text-align: center;
+sup a::before {
+    content: "[";
 }
 
-sup a:focus,sup a:hover {
-    color: #fff !important;
-} */
-
+sup a::after{
+    content: "]";
+}
 
 /* 经过文本 */
 blockquote.danger{
