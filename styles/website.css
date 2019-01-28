@@ -82,9 +82,13 @@ blockquote.danger{
     color: #FF5722;
 }
 
-/* --------------------------------------------- */
+/* -----------------引用警告--------------------- */
 
-
+#danger+blockquote {
+    color: #ff0000;
+    border-left: 4px solid #ff0000;
+    font-family: cursive;
+}
 
 
 
