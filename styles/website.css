@@ -87,7 +87,8 @@ blockquote.danger{
 #danger+blockquote {
     color: #ff0000;
     border-left: 4px solid #ff0000;
-    font-family: cursive;
+    font-family: serif;
+    background: #fdf7f7;
 }
 
 
